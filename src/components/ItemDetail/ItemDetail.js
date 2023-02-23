@@ -1,32 +1,32 @@
-import Counter from "../Counter/Counter";
+// import Counter from "../Counter/Counter";
 import "./itemDetail.css";
 
-const prodImg = require.context("./img", true);
+// const prodImg = require.context("./img", true);
 
 const ItemDetail = ({producto})=> {
+    console.log(producto)
     return ( 
-        <>  
-            <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">{producto.nombre}</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div>  
+            HOla
+            
+            {/* <div className="card mb-3 conte">
+            <div className="row g-0">
+                <div className="col-md-4">
+                <img src= "../img/torta1-250x250.jpg" className="fotoModal" alt={producto.nombre}/>
                 </div>
-                <div class="modal-body">
-                    <img src= {prodImg(`./${producto.img}`)} className="fotoModal" alt="producto"/>
-                    <p>{producto.descripcion}</p>
-                    <p>{producto.precio}</p>
-                    <Counter prop = {producto.sotck}/>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">{producto.nombre}</h5>
+                    <p className="card-text">{producto.descripcion}</p>
+                    <p className="card-text"><small className="text-muted">$ {producto.precio}</small></p>
+                    <Counter />
                 </div>
                 </div>
             </div>
-            </div>       
-        </>    
+            </div> */}
+        </div>    
     );       
 };
 export default ItemDetail;
+
+

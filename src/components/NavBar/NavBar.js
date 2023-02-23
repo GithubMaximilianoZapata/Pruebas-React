@@ -7,19 +7,22 @@ const NavBar = () => {
     return (
         <>
          <div className="collapse" id="navbarToggleExternalContent">
-            <div className="bg-dark p-4">                
+            <div className="bg-dark p-4">
+                <li className="nav-item">
+                    <a className="active nav" href="#tortas">Inicio</a>
+                </li>                
                 <li className="nav-item">
                     <a className="active nav" href="#tortas">Tortas</a>
-                  </li>
+                </li>
                 <li className="nav-item">
                     <a className="active nav" href="#alfajores">Alfajores</a>
-                  </li>
+                </li>
                 <li className="nav-item">
                     <a className="active nav" href="#bom">Bombones</a>
-                  </li>
+                </li>
                 <li className="nav-item">
                     <a className="active nav" href="#contacto">Contacto</a>
-                  </li>
+                </li>
             </div>
           </div>
           <nav className="navbar navbar-dark bg-dark d-flex">

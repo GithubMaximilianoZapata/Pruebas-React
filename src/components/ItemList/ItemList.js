@@ -5,10 +5,10 @@ const ItemList = ({prod})=> {
     return (        
             <div className="container cards">
                 <div className="row row-cols-1 row-cols-md-3 g-4 pd-5">
-                {prod.map((prod) => {
-                 return <Item prod= {prod}/>            
-                })};               
-            </div>   
+                    {prod.map((prod) => {
+                     return <Item key= {prod.id} prod= {prod}/>            
+                    })};               
+                </div>   
             </div>      
         );       
 };
