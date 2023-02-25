@@ -1,7 +1,6 @@
-.fotoModal {
-    width: 20px;
-    height: 20px;
+.cardDetail {
+    background-color: bisque;
 }
-.conte {
-    max-width: 540px;
+.cantidad {
+    margin-right: 80px;
 }

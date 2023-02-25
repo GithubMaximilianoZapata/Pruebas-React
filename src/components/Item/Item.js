@@ -5,11 +5,11 @@ import "./item.css"
                  
         return (
             <>      
-                <div className="card mb-3">
+                <div className="card mb-3 cardProd">
                 <img src= {prod.img} className="card-img-top foto" alt= {prod.nombre} />
                 <div className="card-body">
                     <h5 className="card-title nombre">{prod.nombre}</h5>
-                    <p className="card-text info">MAS INFORMACION</p>                    
+                    <button type="button" className="btn btn-dark">Mas Informacion</button>                  
                 </div>
                 </div> 
             </>                 

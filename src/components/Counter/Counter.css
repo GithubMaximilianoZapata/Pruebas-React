@@ -2,33 +2,31 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-size: 27px;    
-    width: 20%;
-    height: 20%;
-    margin-left: 500px;
-    margin-top: 60px;
-    padding: 10px;
-    border: 2px solid black;    
+    justify-content: flex-start;
+    font-size: 19px;    
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;   
+        
 }
 .button1 {
     margin-right: 15px;
     font-size: 12px;
     border: 2px solid black;
-    background-color: whitesmoke;
+    background-color: black;
+    color: whitesmoke;
     cursor: pointer;
 }
 .button2 {
     margin-left: 15px;
     font-size: 12px;
     border: 2px solid black;
-    background-color: whitesmoke;
+    background-color: black;
+    color: whitesmoke;
     cursor: pointer;
 }
 .button3 {
     margin-left: 25px;
-    font-size: 15px;
-    border: 2px solid black;
-    background-color: whitesmoke;
-    cursor: pointer;
+    
+      
 }
