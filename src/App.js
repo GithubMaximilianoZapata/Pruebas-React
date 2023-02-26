@@ -17,7 +17,7 @@ export default function App() {
           <Route exact path="/tortas" element={<Torta />} />
           <Route exact path="/alfajores" element={<Alfajor />} /> 
           <Route exact path="/bombones" element={<Bombon />} />                 
-          <Route exact path="/item" element={<ItemDetailContainer />} />
+          <Route exact path="/item/:itemId" element={<ItemDetailContainer />} />
         </Routes>
       </BrowserRouter>
     </div>

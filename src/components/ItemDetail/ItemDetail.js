@@ -1,10 +1,11 @@
 import Counter from "../Counter/Counter";
 import "./itemDetail.css";
+import { Link } from 'react-router-dom';
 
-const ItemDetail = ({ prod }) => {
+const ItemDetail = ({ prod}) => {
 
     return (
-        <>      
+        <Link to= {`/item/${prod}`}>      
                 <div className="card mb-3 cardDetail" style={{max_widht: "200px"}}>
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -21,7 +22,7 @@ const ItemDetail = ({ prod }) => {
                     </div>
                 </div>
                 </div>
-            </>                 
+        </Link>                 
     );
 };
 export default ItemDetail;
