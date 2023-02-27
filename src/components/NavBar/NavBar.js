@@ -12,13 +12,13 @@ const NavBar = () => {
             <Link className="active nav" to="/">Inicio</Link>
           </li>
           <li className="nav-item">
-            <Link className="active nav" to="/tortas">Tortas</Link>
+            <Link className="active nav" to="/category/tortas">Tortas</Link>
           </li>
           <li className="nav-item">
-            <Link className="active nav" to="/alfajores">Alfajores</Link>
+            <Link className="active nav" to="/category/alfajores">Alfajores</Link>
           </li>
           <li className="nav-item">
-            <Link className="active nav" to="/bombones">Bombones</Link>
+            <Link className="active nav" to="/category/bombones">Bombones</Link>
           </li>
         </div>
       </div>
@@ -27,7 +27,7 @@ const NavBar = () => {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <img src={logo} alt="logo tienda" className="logo" />
+          <Link to ="/"><img src={logo} alt="logo tienda" className="logo" /></Link>
           <h1 className="titulo">Mary Delicatessen</h1>
           <CartWidget />
         </div>

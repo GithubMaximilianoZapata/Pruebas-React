@@ -3,17 +3,17 @@ import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
-  const { id } = useParams();
+  const { itemId } = useParams();
   const [producto, setProd] = useState();
   useEffect(() => {
     fetch("../products.json")
       .then((res) => res.json())
-      .then((e) => setProd(e.find(item => id === item.id)))
+      .then((res) => setProd(res.find(e => e.id === parseInt(itemId))))
       .catch((error) => console.log(error))
-  }, [id]);
+  }, [itemId]);
   return (
     <>
-      {typeof producto === "undefined" ? <div class="d-flex justify-content-center"><div class="spinner-border" role="status"> <span class="visually-hidden">Loading...</span></div></div> : <ItemDetail prod={producto}/>}
+      {typeof producto === "undefined" ? <div class="d-flex justify-content-center"><div class="spinner-border" role="status"> <span class="visually-hidden">Loading...</span></div></div> : <ItemDetail prod={producto} />}
     </>);
 };
 export default ItemDetailContainer;

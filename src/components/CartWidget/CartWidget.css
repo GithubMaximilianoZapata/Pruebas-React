@@ -3,4 +3,10 @@
     color: whitesmoke;
     font-size: 25px;
     margin-right: 1rem;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.cart:hover {
+    color: whitesmoke;
 }

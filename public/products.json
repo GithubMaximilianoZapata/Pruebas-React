@@ -1,13 +1,13 @@
 [            
     {
-        "id": "1",
+        "id": 1,
         "img": "../img/torta1-250x250.jpg",
         "nombre": "Tortas para Eventos",
         "descripcion": "Esta es una torta cubierta por diferentes cremas para eventos de alta concurrencia.",
         "precio": 500,
         "cantidad": "1",
-       "categoria": "Torta",
-        "stock": 15
+       "categoria": "tortas",
+        "stock": 10
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
         "descripcion": "Esta es una torta cubierta con glace de azucar para eventos de mediana concurrencia.",
         "precio": 350,
         "cantidad": 1,
-        "categoria": "Torta",
+        "categoria": "tortas",
         "stock": 10
       },
       {
@@ -26,8 +26,8 @@
         "descripcion": "Esta es una torta con diferentes coberturas y tamaños para eventos de baja concurrencia.",
         "precio": 250,
         "cantidad": 1,
-        "categoria": "Torta",
-        "stock": 8
+        "categoria": "tortas",
+        "stock": 10
       },
       {
         "id": 4,
@@ -36,8 +36,8 @@
         "descripcion": "Alfajores cubiertos por choclate negro rellenos con dulce de leche.",
         "precio": 150,
         "cantidad": 1,
-        "categoria": "Alfajor",
-        "stock": 50
+        "categoria": "alfajores",
+        "stock": 12
       },
       {
         "id": 5,
@@ -46,8 +46,8 @@
         "descripcion": "Mini Alfajores cubirtos de chocolate negro rellenos con crema a eleccion.",
         "precio": 130,
         "cantidad": 1,
-        "categoria": "Alfajor",
-        "stock": 50
+        "categoria": "alfajores",
+        "stock": 12
       },
       {
         "id": 6,
@@ -56,8 +56,8 @@
         "descripcion": "Alfajores bañados en chocolate negro o blanco rellenos de dulce a eleccion.",
         "precio": 190,
         "cantidad": 1,
-        "categoria": "Alfajor",
-        "stock": 50
+        "categoria": "alfajores",
+        "stock": 12
       },
       {
         "id": 7,
@@ -66,8 +66,8 @@
         "descripcion": "Mini Alfajores cubirtos de chocolate negro rellenos con crema a eleccion.",
         "precio": 140,
         "cantidad": 1,
-        "categoria": "Alfajor",
-        "stock": 50
+        "categoria": "alfajores",
+        "stock": 12
       },
       {
         "id": 8,
@@ -76,8 +76,8 @@
         "descripcion": "Bombones bañados en chocolate negro o blanco con rellenos especiales a eleccion.",
         "precio": 80,
         "cantidad": 1,
-        "categoria": "Bombon",
-        "stock": 50
+        "categoria": "bombones",
+        "stock": 12
       },
       {
         "id": 9,
@@ -86,7 +86,7 @@
         "descripcion": "Bombones bañados en chocolate negro rellenos de dulce de leche o cremas a eleccion.",
         "precio": 90,
         "cantidad": 1,
-        "categoria": "Bombon",
-        "stock": 50
+        "categoria": "bombones",
+        "stock": 10
       }
 ]
